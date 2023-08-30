@@ -1,7 +1,8 @@
 import Header from './components/Header';
 import TodosLogic from './components/todosLogic';
 
-const TodoApp = () => (
+
+const App = () => (
   <div className="wrapper">
     <div className="todos">
       <Header />
@@ -9,4 +10,4 @@ const TodoApp = () => (
     </div>
   </div>
 );
-export default TodoApp;
+export default App;
