@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import TodosLogic from './components/todosLogic';
-
+import './styles/app.css';
 
 const App = () => (
   <div className="wrapper">
